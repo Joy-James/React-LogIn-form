@@ -1,0 +1,51 @@
+body {
+
+  color: #333; 
+}
+
+.container > form {
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  padding: 20px;
+  width: 70%;
+}
+
+pre {
+  color: #333;
+  font-size: larger;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.container > form {
+  margin-top: 20px;
+}
+
+pre {
+  margin-top: 20px;  
+}
+
+button {
+  background: #0563b4;
+  color: #fff;
+  padding: 10px 20px;
+}
+.toogle{
+display: flex;
+justify-self: flex-end;
+}
+
+p {
+  color: red;
+  margin-top: 10px;
+}
